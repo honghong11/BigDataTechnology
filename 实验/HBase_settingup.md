@@ -131,7 +131,7 @@ export HBASE_MANAGES_ZK=true  //是否使用HBase自带的zookeeper
             DataNode
             NodeManager
             HQuorumPeer
-            HRegionServer
+            HRegionServe
     停止Hbase
     命令执行顺序如下：
         stop-hbase.sh  
