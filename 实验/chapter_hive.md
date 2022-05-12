@@ -40,7 +40,7 @@
         进入到mysql之后，我们可以设置一个hive用户，命令如下：
             use mysql;
             flush privileges; //刷新一下配置
-            ALTER USER 'hive'@'localhost' identified with mysql_native_password by '这里输入密码';
+            create USER 'hive'@'localhost' identified with mysql_native_password by '这里输入密码';
             flush privileges;
         之后，就可以使用hive这个账户登录mysql；
 ### 配置hive
